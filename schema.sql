@@ -17,6 +17,8 @@ create table property_sales(
     borough varchar(20),
 	neighborhood varchar(30),
 	address varchar(100),
-	sale_price varchar(100));
-	  
+	sale_price bigint
+	);
+
+select * from tree_census;	  
 select * from property_sales;
